@@ -5,8 +5,10 @@ const showMenu = (toggleId, navId) =>{
 
     /*Valida se existe as variaveis*/
     if(toggle && nav){
+
         /*Adiciona a class show-menu na div com a class nav-menu*/
         toggle.addEventListener('click', () => {
+            
             /*Adiciona a class show-menu na div que tem o id nav-menu*/
             nav.classList.toggle('show-menu')
         })
@@ -35,3 +37,11 @@ function colorLink(){
 }
 
 linkColor.forEach(l => l.addEventListener('click', colorLink))
+/*================= MUDAR COR DO HEADER =================*/
+function scrollHeader(){
+    const scrollHeader = document.getElementById('header')
+
+    if (this.scrolly >= 100) scrollHeader.classList.add('scroll-header'); else scrollHeader.classList.remove('scroll-header')
+}
+
+window.addEventListener('scroll', scrollHeader)
