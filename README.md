@@ -56,5 +56,5 @@
     </ul>
 
 <strong>Desenvolvimento</strong>
-<p>O projeto foi inicialmente desenvolvido com foco em dispositivos móveis, garantindo uma experiência fluida em telas menores.</p>
-<p>Em seguida, adaptamos o layout para desktops, mantendo a consistência visual e a usabilidade.</p>
+
+<p>O projeto foi inicialmente desenvolvido com foco em dispositivos móveis, garantindo uma experiência fluida em telas menores. Em seguida, adaptamos o layout para desktops, mantendo a consistência visual e a usabilidade.</p>
