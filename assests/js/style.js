@@ -20,7 +20,7 @@ function linkAction(){
     navMenu.classList.remove('show-menu')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
-/*=================DEIXA O LINK CLICADO COM A CLASSE ACTIVE =================*/
+/*=================DEIXA O LINK CLICADO COM A CLASSE ACTIVE =============*/
 const linkColor = document.querySelectorAll('.nav__link')
 function colorLink(){
     if(linkColor){
