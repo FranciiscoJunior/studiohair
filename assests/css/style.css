@@ -689,7 +689,7 @@ a{
         top: -10%;
     }
     .services__content__description{
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .gallery::before{
         height: 50%;
