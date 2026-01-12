@@ -397,7 +397,7 @@ a{
     padding: 2rem;
     text-align: center;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 20px;
 }
 
 .services__content__description .box {
